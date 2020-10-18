@@ -1,0 +1,23 @@
+.entrevistas{
+    padding: 0px;
+    margin-top: -3vh;
+    display: flex;
+    flex-flow: row wrap; /*sacar en el @media*/
+    
+    h2{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        color: #060A24;
+        line-height: 42px;
+        font-weight: 400;
+        text-align: left;
+        padding: 0vh 5vw 0vh 5vw;
+    }
+    .fotos{
+        margin-top: 1.7vh;
+        img{
+            max-width: 100vw;
+            display: block;
+        }
+    }
+}

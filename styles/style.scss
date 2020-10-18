@@ -1,0 +1,63 @@
+
+
+
+@import '_menu';
+@import '_cabecera';
+@import '_episodios';
+@import '_nosotros';
+@import '_entrevistas';
+@import '_topicos';
+@import '_novedades';
+
+*{
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+@mixin titulos{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: #060A24;
+    line-height: 42px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 50px;
+}
+
+@mixin texto{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 14px;
+    color: #060A24;
+    line-height: 21px;
+    letter-spacing: 1.3px;
+    word-spacing: 2.3px;
+}
+
+section, footer{
+    padding: 2vh 5vw;
+}
+
+h2, h1{
+    @include titulos;
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: space-around;
+        // align-items: center;

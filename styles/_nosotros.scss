@@ -1,0 +1,28 @@
+.nosotros{
+    display: flex;
+    flex-flow: row wrap; /*sacar en el @media*/
+    align-items: center;
+    position: relative;
+    top:-9.7vh;
+    max-width: 100%;
+    padding:0px;
+
+    .celular{
+        max-width: 100vw;
+    }
+
+    .texto{
+        padding: 0vh 5vw;
+        h2{
+            margin-top: 3.3vh;
+        }
+
+        p{
+            font-family: 'IBM Plex Mono', monospace;
+            font-size: 14px;
+            color: #060A24;
+            line-height: 22px;
+            margin-top: 1.1vh;
+        }
+    }
+}

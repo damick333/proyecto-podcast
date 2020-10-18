@@ -1,0 +1,175 @@
+.barra {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 1.8vw 5vw; }
+  .barra .menu {
+    display: flex;
+    flex-direction: row; }
+    .barra .menu .btn-menu {
+      font-size: 24px; }
+    .barra .menu ul {
+      display: none; }
+
+.cabecera {
+  background-color: white;
+  padding: 3.5vh 5vw; }
+  .cabecera h1 span {
+    text-decoration: line-through; }
+  .cabecera p {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: #060A24;
+    line-height: 22px;
+    margin: 2vh 0px;
+    text-align: justify; }
+  .cabecera a {
+    text-decoration: none;
+    font-weight: 500; }
+    .cabecera a .boton {
+      width: 100%;
+      height: 48px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 16px;
+      color: #060A24;
+      text-align: center;
+      line-height: 22px;
+      background-color: #00F3BB;
+      border: none;
+      margin: 1.4vh auto;
+      text-decoration: none;
+      margin-top: 4.3vh;
+      padding-top: 13px; }
+
+.episodios {
+  background: blue;
+  background: linear-gradient(180deg, blue 0%, #0000a3 100%);
+  transform: skewY(-6deg);
+  text-align: left; }
+  .episodios .derecho {
+    transform: skewY(6deg);
+    padding: 3.7vh 0vw 13vh 0vw; }
+  .episodios h2 {
+    color: #ffffff; }
+  .episodios .podcast {
+    margin-top: 3vh; }
+
+.nosotros {
+  display: flex;
+  flex-flow: row wrap;
+  /*sacar en el @media*/
+  align-items: center;
+  position: relative;
+  top: -9.7vh;
+  max-width: 100%;
+  padding: 0px; }
+  .nosotros .celular {
+    max-width: 100vw; }
+  .nosotros .texto {
+    padding: 0vh 5vw; }
+    .nosotros .texto h2 {
+      margin-top: 3.3vh; }
+    .nosotros .texto p {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 14px;
+      color: #060A24;
+      line-height: 22px;
+      margin-top: 1.1vh; }
+
+.entrevistas {
+  padding: 0px;
+  margin-top: -3vh;
+  display: flex;
+  flex-flow: row wrap;
+  /*sacar en el @media*/ }
+  .entrevistas h2 {
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: #060A24;
+    line-height: 42px;
+    font-weight: 400;
+    text-align: left;
+    padding: 0vh 5vw 0vh 5vw; }
+  .entrevistas .fotos {
+    margin-top: 1.7vh; }
+    .entrevistas .fotos img {
+      max-width: 100vw;
+      display: block; }
+
+.topicos h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  color: #060A24;
+  line-height: 42px;
+  font-weight: 400;
+  text-align: left;
+  padding: 4vh 0 0 0; }
+.topicos .temas {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center; }
+  .topicos .temas .tema {
+    text-align: center;
+    padding-top: 4vh;
+    width: 100%; }
+    .topicos .temas .tema h3 {
+      font-family: 'IBM Plex Sans', sans-serif;
+      font-weight: 500;
+      font-size: 24px;
+      color: #060A24;
+      text-align: center;
+      padding-top: 8px; }
+  .topicos .temas .dos {
+    padding-top: 6vh; }
+  .topicos .temas .tres, .topicos .temas .cuatro {
+    padding-top: 8vh; }
+
+.novedades {
+  background: blue;
+  background: linear-gradient(180deg, blue 0%, #0000a3 100%);
+  transform: skewY(-6deg);
+  margin-top: 5vh; }
+  .novedades .derecho {
+    transform: skewY(6deg);
+    padding: 3.7vh 0vw 13vh 0vw; }
+    .novedades .derecho h2 {
+      color: #ffffff;
+      text-align: center;
+      padding-right: 0px; }
+    .novedades .derecho a {
+      text-decoration: none;
+      font-weight: 500; }
+      .novedades .derecho a .boton {
+        width: 100%;
+        max-width: 345px;
+        height: 48px;
+        font-family: 'IBM Plex Mono', monospace;
+        font-size: 16px;
+        color: #060A24;
+        text-align: center;
+        line-height: 22px;
+        background-color: #00F3BB;
+        margin: 1.4vh auto;
+        margin-top: 4.3vh;
+        padding-top: 13px; }
+
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px; }
+
+section, footer {
+  padding: 2vh 5vw; }
+
+h2, h1 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 36px;
+  color: #060A24;
+  line-height: 42px;
+  font-weight: 400;
+  text-align: left;
+  padding-right: 50px; }
+
+/*# sourceMappingURL=style.css.map */

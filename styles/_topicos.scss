@@ -1,0 +1,43 @@
+.topicos{
+
+
+    h2{
+        font-family: 'IBM Plex Sans', sans-serif;
+        font-size: 36px;
+        color: #060A24;
+        line-height: 42px;
+        font-weight: 400;
+        text-align: left;
+        padding: 4vh 0 0 0;
+
+    }
+
+    .temas{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+        .tema{
+            text-align: center;
+            padding-top: 4vh;
+            width: 100%;
+            
+            h3{
+                font-family: 'IBM Plex Sans', sans-serif;
+                font-weight: 500;
+                font-size: 24px;
+                color: #060A24;
+                text-align: center;
+                padding-top: 8px;
+            }
+        }
+
+        .dos{
+            padding-top: 6vh;
+        }
+
+        .tres, .cuatro{
+            padding-top: 8vh;
+        }
+    }
+}
