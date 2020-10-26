@@ -3,11 +3,11 @@
     background: rgb(0,0,255);
     background: linear-gradient(180deg, rgba(0,0,255,1) 0%, rgba(0,0,163,1) 100%);
     transform: skewY(-6deg);
-    margin-top: 5vh;
+    margin-top: 5.4vh;
 
     .derecho{
         transform: skewY(6deg);
-        padding: 3.7vh 0vw 13vh 0vw;
+        padding: 4vh 0vw 13vh 0vw;
 
         h2{
             color: #ffffff;
@@ -20,18 +20,13 @@
             font-weight: 500;
 
             .boton{
-                width: 100%;
-                max-width: 345px;
-                height: 48px;
-                font-family: 'IBM Plex Mono', monospace;
-                font-size: 16px;
-                color: #060A24;
-                text-align: center;
-                line-height: 22px;
-                background-color: #00F3BB;
-                margin: 1.4vh auto;
-                margin-top: 4.3vh;
-                padding-top: 13px;
+                margin: 1.2vh auto;
+                @include botones;
+
+                &:hover{
+                    background: rgb(0,240,184);
+                    background: linear-gradient(94deg, rgba(0,240,184,1) 0%, rgba(0,0,254,1) 100%);
+                }
                 
             }
 

@@ -2,27 +2,30 @@
     display: flex;
     flex-flow: row wrap; /*sacar en el @media*/
     align-items: center;
+    justify-content: center;
     position: relative;
-    top:-9.7vh;
+    top:-9.9vh;
     max-width: 100%;
     padding:0px;
 
     .celular{
-        max-width: 100vw;
+        width: 100vw;
+        max-width: 457.6px;
     }
 
     .texto{
         padding: 0vh 5vw;
         h2{
-            margin-top: 3.3vh;
+            margin-top: 3.4vh;
         }
 
         p{
-            font-family: 'IBM Plex Mono', monospace;
-            font-size: 14px;
-            color: #060A24;
-            line-height: 22px;
-            margin-top: 1.1vh;
+            @include texto;
+            margin-top: 1vh;
+        }
+
+        .parr2{
+            margin-top: 1.5vh;
         }
     }
 }

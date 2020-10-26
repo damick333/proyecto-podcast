@@ -1,0 +1,27 @@
+footer{
+    background-color: white;
+    text-align: center;
+    z-index: 1;
+    position: relative;
+    top: -69px;
+    padding-top: 2.8vh;
+
+    h4{
+        @include texto;
+        font-weight: 300;
+    }
+
+    .redes{
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 1.4rem .4rem 10rem .4rem;
+        max-width: 800px;
+
+        a{
+        color: black;
+        font-size: 16px;
+        }
+    }
+}
+

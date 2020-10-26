@@ -3,18 +3,126 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin:  1.8vw 5vw;
+    margin:  1vh 5vw;
+
+    img{
+        width: 24px;
+    }
 
     .menu{
         display: flex;
         flex-direction: row;
 
+        input{
+            display: none;
+
+            &:checked ~ .btn-menu{
+                display: none;
+            }
+
+            &:checked ~ .btn-cierre{
+                display: block;
+                font-size: 20px;
+            }
+
+            &:checked ~ ul{
+                display: inline-block;
+                position: absolute;
+                top:40px;
+                right: 0px;;
+                width: 100%;
+                max-width: 320px;
+            }
+        }
+
         .btn-menu{
-            font-size: 24px;
+            display: block;
+            font-size: 18px;
+        }
+
+        .btn-cierre{
+            display: none;
         }
 
         ul{
             display: none;
+            li{
+                background: #0000EC;
+                list-style: none;
+                padding: 14px 0;
+                width: 100%;
+                max-width: 320px;
+
+                a{
+                    box-sizing: border-box;
+                    color: #ffffff;
+                    font-family: 'IBM Plex Mono', monospace;
+                    font-size: 16px;
+                    text-decoration: none;
+                    padding-left: 20px;
+                    line-height: 28px; 
+                    
+                }
+            }
+
         }
+
+        
+        
+    }
+    
+}
+
+@media screen and (min-width: 768px){
+
+    .barra{
+        margin:  1vh 7vw;
+
+        img{
+            width: 36px;
+            
+        }
+
+        .menu{
+            display: flex;
+            flex-direction: row;
+        
+        
+            input{
+                display: none;
+            }
+
+            .btn-menu{
+                display: none;
+            }
+        
+            ul{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-ar;
+                
+                
+                li{
+                    background-color: white;
+                    width: 100%;
+        
+                    a{
+                        color: #060A24;
+                        padding-left: 50px;
+
+                        &:hover{
+                            text-decoration: line-through;
+                            color: #00F3BB;
+                        }
+
+                        &:active{
+                            color:#060A24;
+                        }
+                    }
+                }
+                
+            }
+        }
+    
     }
 }

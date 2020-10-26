@@ -6,7 +6,7 @@
 
     .derecho{
         transform: skewY(6deg);
-        padding: 3.7vh 0vw 13vh 0vw;
+        padding: 3.9vh 0vw 13vh 0vw;
     }
 
     h2{
@@ -15,5 +15,19 @@
 
     .podcast{
         margin-top: 3vh;
+        width: 100%;
+        max-width: 584px;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .episodios{    
+        padding: 0;
+        .derecho{
+            padding: 3rem 6rem;
+            h1{
+                font-size: 48;
+            }
+        }
     }
 }

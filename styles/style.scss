@@ -1,5 +1,35 @@
 
+@mixin titulos{
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-size: 36px;
+    color: #060A24;
+    line-height: 42px;
+    font-weight: 400;
+    text-align: left;
+    padding-right: 40px;
+}
 
+@mixin texto{
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 14px;
+    color: #060A24;
+    line-height: 22px;
+}
+
+@mixin botones{
+    width: 100%;
+    max-width: 345px;
+    height: 48px;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 16px;
+    text-align: center;
+    background-color: #00F3BB;
+    border: none;
+    text-decoration: none;
+    margin-top: 4.3vh;
+    padding-top: 13px;
+    line-height: 22px;
+}
 
 @import '_menu';
 @import '_cabecera';
@@ -8,6 +38,7 @@
 @import '_entrevistas';
 @import '_topicos';
 @import '_novedades';
+@import '_footer';
 
 *{
     -webkit-box-sizing: border-box;
@@ -18,26 +49,9 @@
 
 
 
-@mixin titulos{
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 36px;
-    color: #060A24;
-    line-height: 42px;
-    font-weight: 400;
-    text-align: left;
-    padding-right: 50px;
-}
 
-@mixin texto{
-    font-family: 'IBM Plex Sans', sans-serif;
-    font-size: 14px;
-    color: #060A24;
-    line-height: 21px;
-    letter-spacing: 1.3px;
-    word-spacing: 2.3px;
-}
 
-section, footer{
+section{
     padding: 2vh 5vw;
 }
 
