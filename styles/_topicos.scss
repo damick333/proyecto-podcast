@@ -3,7 +3,7 @@
 
     h2{
         @include titulos;
-        padding: 3.9vh 0 0 0;
+        padding: 2rem 0 0 0;
 
     }
 
@@ -14,7 +14,7 @@
 
         .tema{
             text-align: center;
-            padding-top: 4.5vh;
+            padding-top: 2.5rem;
             width: 100%;
             
             h3{
@@ -27,8 +27,11 @@
             }
         }
 
-        .dos, .tres, .cuatro{
-            padding-top: 6.3vh;
+        .dos{
+            padding-top: 3rem;
+        }
+        .tres, .cuatro{
+            padding-top: 4rem;
         }
     }
 }

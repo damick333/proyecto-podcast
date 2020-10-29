@@ -19,19 +19,20 @@
 @mixin botones{
     width: 100%;
     max-width: 345px;
-    height: 48px;
+    // height: 48px;
     font-family: 'IBM Plex Mono', monospace;
     font-size: 16px;
     text-align: center;
     background-color: #00F3BB;
     border: none;
     text-decoration: none;
-    margin-top: 4.3vh;
-    padding-top: 13px;
+    margin: 36px 0 7px 0;
+    padding: 13px 0px;
     line-height: 22px;
 }
 
 @import '_menu';
+
 @import '_cabecera';
 @import '_episodios';
 @import '_nosotros';
