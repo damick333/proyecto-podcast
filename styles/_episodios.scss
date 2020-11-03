@@ -7,35 +7,83 @@
     .derecho{
         transform: skewY(6deg);
         padding: 2rem 0vw 6rem 0vw;
-    }
+    
+        h2{
+            color: #ffffff;
+        }
 
-    h2{
-        color: #ffffff;
-    }
-
-    .podcast{
-        
-        margin-top: 3vh;
-        iframe{
-            width: 100%;
-            height: 232px;
-            max-width: 584px;
-            border: 0px;
+        .podcast{
+            text-align: center;
+            margin-top: 3vh;
+            iframe{
+                width: 100%;
+                height: 232px;
+                max-width: 584px;
+                border: 0px;
+            }
         }
     }
 }
 
 @media screen and (min-width: 768px){
     .episodios{    
-        padding: 0;
+        background: rgb(0,0,255);
+        background: linear-gradient(90deg, rgba(0,0,163,1) 0%, rgba(0,0,255,1) 100%);
+        padding: 5rem 3rem;
         .derecho{
-            padding: 3rem 6rem;
-            h1{
+            h2{
                 font-size: 48px;
+                padding-left:3rem;
+            }
+
+            .podcast{
+                text-align: center;
+                iframe{
+                    max-width: 320px;
+                }
             }
         }
     }
 }
 
 
-@media screen and (min-width: 992px){}
+@media screen and (min-width: 992px){
+    .episodios{    
+        
+        .derecho{
+            padding-top: 2.5rem;
+            h2{
+                font-size: 48px;
+                padding-left: 3.2em;
+            }
+
+            .podcast{
+                padding-left: 3rem;
+                
+                iframe{
+                        max-width: 440px;
+                    }
+            }
+        }
+    }
+}
+
+@media screen and (min-width:1440px){
+    .episodios{    
+        
+        .derecho{
+            h2{
+                padding-bottom: 1rem;
+            }
+            .podcast{
+                display: grid;
+                grid-template-columns:1fr 1fr;
+                grid-template-rows: 5fr  4fr;
+
+                iframe{
+                    max-width: 584px;
+                }
+            }
+        }
+    }
+}

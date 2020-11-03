@@ -20,8 +20,8 @@
             font-weight: 500;
 
             .boton{
-                margin: 1.2vh auto;
                 @include botones;
+                margin: 1.2vh auto;
                 color: #060A24;
 
                 &:hover{

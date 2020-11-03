@@ -10,7 +10,7 @@
 
     .celular{
         width: 100vw;
-        max-width: 457.6px;
+        max-width: 405px;
     }
 
     .texto{
@@ -27,5 +27,57 @@
         .parr2{
             margin-top: 1.5vh;
         }
+    }
+}
+
+@media screen and (min-width: 768px){
+    .nosotros{
+        top:-120px;
+        
+        .celular{
+            width: 457.6px;;
+        }
+
+        .texto{
+            padding: 0 12.5vw;
+
+            h2{
+                font-size: 48px;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: 992px){
+    .nosotros{
+        top:-100px;
+        flex-flow: initial;
+        align-items: center;
+        padding:0 ;
+
+        .celular{
+            padding-right: 5rem;
+
+        }
+
+        .texto{
+            padding: 0px;
+            width: 100%;
+            max-width: 465px;
+            
+        
+            h2{
+                margin: 0px;
+                padding: 0px;
+                padding-bottom: 1.5rem;
+            }
+
+            p{
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+
     }
 }
