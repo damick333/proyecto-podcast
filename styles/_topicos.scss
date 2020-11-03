@@ -3,7 +3,7 @@
 
     h2{
         @include titulos;
-        padding: 2rem 0 0 0;
+        padding: 1.8rem 0 0 0;
 
     }
 
@@ -37,5 +37,43 @@
 }
 
 @media screen and (min-width: 992px){
+    .topicos{
+        padding-bottom: 4rem;
 
+        h2{
+            padding-top: 3rem;
+            padding-left: 8rem;
+            font-size: 48px;
+            line-height: 62px;
+        
+        }
+
+        .temas{
+            padding-right: 8rem;
+            padding-left: 8rem;
+            display: flex;
+            flex-flow: initial;
+            justify-content: space-evenly;
+
+            .tema{
+                width: 240px;
+
+                img{
+                    padding-bottom: 1rem;
+                }
+            }
+
+            .uno{
+              padding-top: 65px;  
+            } 
+            
+            .dos{
+                padding-top: 65px;
+            } 
+            .tres .cuatro{
+                
+            }
+            
+        }
+    }
 }

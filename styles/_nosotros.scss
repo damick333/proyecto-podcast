@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     position: relative;
-    top:-76px;
+    top:-80px;
     max-width: 100%;
     padding:0px;
 
@@ -16,16 +16,16 @@
     .texto{
         padding: 0vh 5vw;
         h2{
-            margin-top: 3.4vh;
+            margin-top: 27px;
         }
 
         p{
             @include texto;
-            margin-top: 1vh;
+            margin-top: 8px;
         }
 
         .parr2{
-            margin-top: 1.5vh;
+            margin-top: 12px;
         }
     }
 }

@@ -168,7 +168,7 @@
   .episodios .derecho {
     -webkit-transform: skewY(6deg);
             transform: skewY(6deg);
-    padding: 2rem 0vw 6rem 0vw; }
+    padding: 2rem 0vw 5.8rem 0vw; }
     .episodios .derecho h2 {
       color: #ffffff; }
     .episodios .derecho .podcast {
@@ -228,7 +228,7 @@
       -ms-flex-pack: center;
           justify-content: center;
   position: relative;
-  top: -76px;
+  top: -80px;
   max-width: 100%;
   padding: 0px; }
   .nosotros .celular {
@@ -237,15 +237,15 @@
   .nosotros .texto {
     padding: 0vh 5vw; }
     .nosotros .texto h2 {
-      margin-top: 3.4vh; }
+      margin-top: 27px; }
     .nosotros .texto p {
       font-family: 'IBM Plex Mono', monospace;
       font-size: 14px;
       color: #060A24;
       line-height: 22px;
-      margin-top: 1vh; }
+      margin-top: 8px; }
     .nosotros .texto .parr2 {
-      margin-top: 1.5vh; }
+      margin-top: 12px; }
 
 @media screen and (min-width: 768px) {
   .nosotros {
@@ -282,7 +282,7 @@
         line-height: 24px; } }
 .entrevistas {
   padding: 0px;
-  margin-top: -3.2vh;
+  margin-top: -26px;
   /*sacar en el @media*/ }
   .entrevistas h2 {
     font-family: 'IBM Plex Sans', sans-serif;
@@ -328,7 +328,7 @@
   font-weight: 400;
   text-align: left;
   padding-right: 40px;
-  padding: 2rem 0 0 0; }
+  padding: 1.8rem 0 0 0; }
 .topicos .temas {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -356,6 +356,35 @@
   .topicos .temas .tres, .topicos .temas .cuatro {
     padding-top: 4rem; }
 
+@media screen and (min-width: 992px) {
+  .topicos {
+    padding-bottom: 4rem; }
+    .topicos h2 {
+      padding-top: 3rem;
+      padding-left: 8rem;
+      font-size: 48px;
+      line-height: 62px; }
+    .topicos .temas {
+      padding-right: 8rem;
+      padding-left: 8rem;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-flow: initial;
+              flex-flow: initial;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly; }
+      .topicos .temas .tema {
+        width: 240px; }
+        .topicos .temas .tema img {
+          padding-bottom: 1rem; }
+      .topicos .temas .uno {
+        padding-top: 65px; }
+      .topicos .temas .dos {
+        padding-top: 65px; } }
 .novedades {
   background: blue;
   background: -webkit-gradient(linear, left top, left bottom, from(blue), to(#0000a3));
@@ -366,7 +395,7 @@
   .novedades .derecho {
     -webkit-transform: skewY(6deg);
             transform: skewY(6deg);
-    padding: 2rem 0vw 7rem 0vw; }
+    padding: 1.8rem 0vw 5.2rem 0vw; }
     .novedades .derecho h2 {
       color: #ffffff;
       text-align: center;
@@ -386,12 +415,23 @@
         margin: 36px 0 7px 0;
         padding: 13px 0px;
         line-height: 22px;
-        margin: 1.2vh auto;
+        margin: 36px auto;
         color: #060A24; }
         .novedades .derecho a .boton:hover {
           background: #00f0b8;
           background: linear-gradient(94deg, #00f0b8 0%, #0000fe 100%); }
 
+@media screen and (min-width: 992px) {
+  .novedades {
+    padding-top: 7rem;
+    padding-bottom: 6.4rem; }
+    .novedades .derecho h2 {
+      font-size: 48px;
+      line-height: 62px;
+      padding-bottom: 1.5rem; }
+    .novedades .derecho a .boton {
+      font-size: 18px;
+      line-height: 24px; } }
 footer {
   background-color: white;
   text-align: center;
@@ -419,6 +459,40 @@ footer {
       color: black;
       font-size: 16px; }
 
+@media screen and (min-width: 992px) {
+  footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 2rem 6rem;
+    vertical-align: top; }
+    footer h4 {
+      font-size: 16px;
+      line-height: 28px; }
+    footer .redes {
+      margin: 0px;
+      padding-top: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: space-evenly;
+          -ms-flex-pack: space-evenly;
+              justify-content: space-evenly; }
+      footer .redes a {
+        padding-left: 2.3rem;
+        font-size: 18px;
+        line-height: 28px; } }
 * {
   padding: 0px;
   margin: 0px; }

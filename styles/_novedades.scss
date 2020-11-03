@@ -7,7 +7,7 @@
 
     .derecho{
         transform: skewY(6deg);
-        padding: 2rem 0vw 7rem 0vw;
+        padding: 1.8rem 0vw 5.2rem 0vw;
 
         h2{
             color: #ffffff;
@@ -21,7 +21,7 @@
 
             .boton{
                 @include botones;
-                margin: 1.2vh auto;
+                margin: 36px auto;
                 color: #060A24;
 
                 &:hover{
@@ -35,3 +35,28 @@
     }
 }
 
+
+@media screen and (min-width:992px){
+    .novedades{
+        padding-top:7rem;
+        padding-bottom: 6.4rem;
+
+        .derecho{
+            h2{
+                font-size: 48px;
+                line-height: 62px;
+                padding-bottom: 1.5rem;
+            }
+
+            a{
+
+            
+                .boton{
+                    font-size: 18px;
+                    line-height: 24px;
+                }
+            }
+        }
+    }
+
+}
