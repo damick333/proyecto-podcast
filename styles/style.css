@@ -57,9 +57,6 @@
           text-decoration: none;
           padding-left: 20px;
           line-height: 28px; }
-          .barra .menu ul li a:hover {
-            text-decoration: line-through;
-            color: #00F3BB; }
 
 @media screen and (min-width: 768px) {
   .barra {
@@ -92,6 +89,9 @@
           .barra .menu ul li a {
             color: #060A24;
             padding-left: 50px; }
+            .barra .menu ul li a:hover {
+              text-decoration: line-through;
+              color: #00F3BB; }
             .barra .menu ul li a:active {
               color: #060A24; } }
 .cabecera {
