@@ -61,6 +61,11 @@
                     text-decoration: none;
                     padding-left: 20px;
                     line-height: 28px; 
+
+                    &:hover{
+                        text-decoration: line-through;
+                        color: #00F3BB;
+                    }
                     
                 }
             }
@@ -107,10 +112,7 @@
                         color: #060A24;
                         padding-left: 50px;
 
-                        &:hover{
-                            text-decoration: line-through;
-                            color: #00F3BB;
-                        }
+                        
 
                         &:active{
                             color:#060A24;

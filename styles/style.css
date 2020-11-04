@@ -57,6 +57,9 @@
           text-decoration: none;
           padding-left: 20px;
           line-height: 28px; }
+          .barra .menu ul li a:hover {
+            text-decoration: line-through;
+            color: #00F3BB; }
 
 @media screen and (min-width: 768px) {
   .barra {
@@ -89,9 +92,6 @@
           .barra .menu ul li a {
             color: #060A24;
             padding-left: 50px; }
-            .barra .menu ul li a:hover {
-              text-decoration: line-through;
-              color: #00F3BB; }
             .barra .menu ul li a:active {
               color: #060A24; } }
 .cabecera {
@@ -424,7 +424,10 @@
 @media screen and (min-width: 992px) {
   .novedades {
     padding-top: 7rem;
-    padding-bottom: 6.4rem; }
+    padding-bottom: 6.4rem;
+    background: blue;
+    background: -webkit-gradient(linear, left top, right top, from(#0000a3), to(blue));
+    background: linear-gradient(90deg, #0000a3 0%, blue 100%); }
     .novedades .derecho h2 {
       font-size: 48px;
       line-height: 62px;
