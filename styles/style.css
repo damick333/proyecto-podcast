@@ -424,14 +424,14 @@
 @media screen and (min-width: 992px) {
   .novedades {
     padding-top: 7rem;
-    padding-bottom: 6.4rem;
+    padding-bottom: 8.5rem;
     background: blue;
     background: -webkit-gradient(linear, left top, right top, from(#0000a3), to(blue));
     background: linear-gradient(90deg, #0000a3 0%, blue 100%); }
     .novedades .derecho h2 {
       font-size: 48px;
       line-height: 62px;
-      padding-bottom: 1.5rem; }
+      padding-bottom: 0.3rem; }
     .novedades .derecho a .boton {
       font-size: 18px;
       line-height: 24px; } }
@@ -475,7 +475,8 @@ footer {
         -ms-flex-pack: justify;
             justify-content: space-between;
     padding: 2rem 6rem;
-    vertical-align: top; }
+    vertical-align: top;
+    top: -100px; }
     footer h4 {
       font-size: 16px;
       line-height: 28px; }
